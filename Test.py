@@ -1,3 +1,7 @@
+#Name: Jett Gazeley
+#Last Edited: 2021-12-27 (yyyy-mm-dd)
+
+
 #sample data
 group_names = ["name1", "name2", "name3"]
 group_found = ["name1", "2", "4"]
@@ -12,6 +16,7 @@ def data_check():
             print("missing a data point") 
     return 0
 
+#main function
 def main():
     data_check()
 
